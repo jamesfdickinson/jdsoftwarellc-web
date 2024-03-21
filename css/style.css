@@ -15,13 +15,21 @@ ul {
 
 
 nav {
-    text-align: right;
+    display: flex;
 }
 
 nav a {
     text-decoration: none;
     color: black;
-    padding: 0 0px 0 10px;
+    background-color: #ffffff;
+    border-bottom: 1px black solid;
+    padding: 10px 20px;
+}
+nav .left {
+    flex-grow: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 /* @media screen and (max-width: 400px) {
@@ -30,20 +38,15 @@ nav a {
     }
 } */
 
-.logo {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-decoration: none;
-    color: black;
-}
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    text-align: center;
     background-color: #ffffff;
     border-bottom: 1px black solid;
     padding: 10px 20px;
+    font-family: Calibri,'Arial Narrow Bold', sans-serif;
 }
+
 
 main {
     padding: 10px 20px;
@@ -56,7 +59,16 @@ footer {
     padding: 10px 0;
     text-align: center;
 }
+footer a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
 
+.button-store{
+    margin: 6px 4px; 
+    display: inline-block;
+}
 .button-outline {
     text-align: center;
     font-size: 160%;
