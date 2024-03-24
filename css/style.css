@@ -67,6 +67,7 @@ footer a{
 
 .button-store{
     height:60px;
+    /* width: 175px; */
     margin: 6px 4px; 
     display: inline-block;
 }
